@@ -1,0 +1,35 @@
+li {
+  list-style: none;
+}
+
+.cardProducts {
+  border: 1px solid black;
+  border-radius: 20px;
+  list-style: none;
+  margin: 1rem 0.5rem;
+  width: fit-content;
+}
+
+.cardProducts img {
+  justify-content: center;
+  margin: 1rem;
+}
+
+.productName {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cardPrice {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.cardPrice button {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 30px;
+}

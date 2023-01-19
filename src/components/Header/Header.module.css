@@ -1,0 +1,61 @@
+.header {
+  background-color: rgb(20, 19, 19);
+  padding: 5rem;
+}
+
+.headerContent {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+}
+
+.headerContent h1 {
+  color: white;
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
+.headerContent label {
+  color: white;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.buttonPages button{
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.searchInput {
+  align-items: center;
+
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 60%;
+}
+
+.searchInput input {
+  border-radius: 20px;
+  height: 35px;
+  flex-grow: 2;
+  margin: auto;
+  width: 30rem;
+}
+.searchInput button {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
